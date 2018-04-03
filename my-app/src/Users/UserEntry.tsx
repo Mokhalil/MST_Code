@@ -1,7 +1,7 @@
-import * as React from "react";
-import { observer } from "mobx-react";
-import UserViewEditor from "./UserViewEditor";
-import { INITIAL_STATE_USER } from "../models/constants";
+import * as React from 'react';
+import {observer} from 'mobx-react';
+import UserViewEditor from './UserViewEditor';
+import {INITIAL_STATE_USER} from '../models/constants';
 
 export interface UserEntryProps {
   users: any;
@@ -12,6 +12,7 @@ export default class UserEntry extends React.Component<UserEntryProps, any> {
   
     constructor(props: UserEntryProps) {
     super(props);
+        //Initlize the control with an empty object
     this.state = {entry: INITIAL_STATE_USER}
     }
   
