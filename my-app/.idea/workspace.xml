@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ddde477-4c8a-40fd-8039-0df0771a58ac" name="Default" comment="New code spike for React and MST">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tasks/components/Dashboard.tsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tasks/components/TaskList.tsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tasks/components/TaskListItem.tsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tasks/components/UserSelector.tsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tasks/components/UserSelectorItem.tsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tasks/stores/AppStore.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tasks/stores/TodoStore.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tasks/stores/UserStore.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tasks/stores/ViewStore.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tasks/stores/services/UserService.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tasks/stores/types/Todo.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tasks/stores/types/User.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Users/UserEntry.tsx" afterPath="$PROJECT_DIR$/src/Users/UserEntry.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.tsx" afterPath="$PROJECT_DIR$/src/index.tsx" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,8 +30,8 @@
       <file leaf-file-name="TaskList.tsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tasks/components/TaskList.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+            <state relative-caret-position="72">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -102,6 +87,7 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -123,7 +109,6 @@
         <option value="$PROJECT_DIR$/src/Tasks/components/TaskListItem.tsx.ts" />
         <option value="$PROJECT_DIR$/src/Tasks/components/Home.tsx" />
         <option value="$PROJECT_DIR$/src/Tasks/components/UserSelector.tsx" />
-        <option value="$PROJECT_DIR$/src/Tasks/components/TaskList.tsx" />
         <option value="$PROJECT_DIR$/src/Tasks/components/Dashboard.tsx" />
         <option value="$PROJECT_DIR$/src/Tasks/stores/types/User.ts" />
         <option value="$PROJECT_DIR$/src/Tasks/stores/TodoStore.ts" />
@@ -137,6 +122,7 @@
         <option value="$PROJECT_DIR$/src/Users/UserEntry.tsx" />
         <option value="$PROJECT_DIR$/src/Tasks/stores/UserStore.ts" />
         <option value="$PROJECT_DIR$/src/Tasks/stores/ViewStore.ts" />
+        <option value="$PROJECT_DIR$/src/Tasks/components/TaskList.tsx" />
       </list>
     </option>
   </component>
@@ -449,17 +435,33 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4ddde477-4c8a-40fd-8039-0df0771a58ac" name="Default" comment="" />
+      <changelist id="" name="New Code Spike" comment="" />
       <created>1522663512058</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522663512058</updated>
       <workItem from="1522663513443" duration="9192000" />
-      <workItem from="1522776541933" duration="6386000" />
+      <workItem from="1522776541933" duration="6814000" />
     </task>
+    <task id="LOCAL-00001" summary="New code spike for React and MST">
+      <created>1522782964717</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1522782964717</updated>
+    </task>
+    <task id="LOCAL-00002" summary="New code spike for React and MST">
+      <created>1522783261664</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1522783261664</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15578000" />
+    <option name="totallyTimeSpent" value="16006000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -472,12 +474,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33021808" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5867082" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -499,10 +500,37 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="New Code Spike" />
     <MESSAGE value="New code spike for React and MST" />
     <option name="LAST_COMMIT_MESSAGE" value="New code spike for React and MST" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
@@ -842,8 +870,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tasks/components/TaskList.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
