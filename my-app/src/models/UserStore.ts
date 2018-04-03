@@ -1,7 +1,7 @@
 /**
  * Created by Moham on 02/04/2018.
  */
-import { types, flow } from "mobx-state-tree";
+import { types, flow, destroy, applySnapshot } from "mobx-state-tree";
 import { User } from "./User";
 import { DataProviderFactory } from "./DataProvider";
 
@@ -17,9 +17,9 @@ export const UserStore = types
       try {
         self.isLoading = true;
         const response = yield usersDataProvider.getAll();
-        console.log (response);
-        if (response)
-          self.users = response.map((jsonUser: any) => User.create(jsonUser));
+        console.log(response);
+        if (response) applySnapshot(self.users, response);
+        //self.users = response.map((jsonUser: any) => User.create(jsonUser));
       } catch (error) {
         console.log("Error getting the datat " + error);
         throw new Error(error.message);
@@ -28,7 +28,29 @@ export const UserStore = types
       }
     });
 
-    return {
-      loadUsers
+    const sayHi = () => {
+      console.log("Hi");
     };
+
+    const remove = (item: any) => {
+      destroy(item);
+    };
+    const add = (item: any) => {
+      self.users.push(item);
+    };
+
+    return {
+      loadUsers,
+      remove,
+      add,
+
+      sayHi
+    };
+  })
+  .actions(self => {
+    const afterCreate = () => {
+      if (self.users.length == 0) self.loadUsers();
+    };
+
+    return { afterCreate };
   });

@@ -1,7 +1,7 @@
 /**
  * Created by Moham on 02/04/2018.
  */
-import { types } from "mobx-state-tree";
+import { types, getParent } from "mobx-state-tree";
 
 export const User = types
   .model("User", {
@@ -28,11 +28,13 @@ export const User = types
     const changeName = (newName: string) => {self.name=newName};
     const changeUserName = (newUserName: string) => {self.username = newUserName};
     const changeEmail = (newEmail: string) => {self.email= newEmail};
+    const remove = ()=>{getParent(self, 2).remove(self);}
 
 
     return {
       changeName,
       changeUserName,
-      changeEmail
+      changeEmail,
+      remove
     };
   });

@@ -1,3 +1,4 @@
+import { User } from './User';
 /**
  * Created by Moham on 02/04/2018.
  */
@@ -5,3 +6,28 @@ export enum Api{
     USERS = "https://jsonplaceholder.typicode.com/users",
     TODOS = "https://jsonplaceholder.typicode.com/todos"
 }
+
+
+export let INITIAL_STATE_USER = User.create( {
+      "id": 50,
+      "name": "Enter Name",
+      "username": "Bret",
+      "email": "Enter Email",
+      "address": {
+        "street": "Kulas Light",
+        "suite": "Apt. 556",
+        "city": "Gwenborough",
+        "zipcode": "92998-3874",
+        "geo": {
+          "lat": "-37.3159",
+          "lng": "81.1496"
+        }
+      },
+      "phone": "1-770-736-8031 x56442",
+      "website": "hildegard.org",
+      "company": {
+        "name": "Romaguera-Crona",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      }
+    });
